@@ -1,0 +1,476 @@
+body {
+    background: #607D8B;
+    font-family: arial;
+  }
+  .login-form h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #45aba6;
+    margin-bottom: 30px;
+    font-weight: normal;
+  }
+  .login-form .social-icon {
+      width: 100%;
+      font-size: 20px;
+      padding-top: 20px;
+      color: #fff;
+      text-align: center;
+      float: left;
+  }
+  .login-form {
+      background: #fff;
+      width: 450px;
+      border-radius: 6px;
+      margin: 0 auto;
+      display: table;
+      padding: 15px 30px 30px;
+      box-sizing: border-box;
+  }
+  .form-group {
+    float: left;
+    width: 100%;
+    margin: 0 0 15px;
+    position: relative;
+  }
+  .login-form input {
+      width: 100%;
+      padding: 5px;
+      height: 56px;
+      border-radius: 74px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      font-size: 15px;
+      padding-left: 75px;
+  }
+  .login-form .form-group .input-icon {
+      font-size: 15px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      align-items: center;
+      position: absolute;
+      border-radius: 25px;
+      bottom: 0;
+      height: 100%;
+      padding-left: 35px;
+      color: #666;
+  }
+  .login-form .login-btn {
+    background: #45aba6;
+    padding: 11px 50px;
+    border-color: #45aba6;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    border: 1px solid #45aba6;
+    border-radius: 44px;
+    width: 100%;
+    height: 56px;
+    cursor: pointer;
+  }
+  .login-form .reset-psw {
+    float: left;
+    width: 100%;
+    text-decoration: none;
+    color: #45aba6;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 11px;
+  }
+  .login-form .social-icon button {
+      font-size: 20px;
+      color: white;
+      height: 50px;
+      width: 50px;
+      background: #45aba6;
+      border-radius: 60%;
+      margin: 0px 10px;
+      border: none;
+      cursor: pointer;
+  }
+  
+  
+  .login-form .seperator {
+    float: left;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    margin: 50px 0 0;
+  }
+  .login-form .seperator b {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    background: #fff;
+    display: inline-block;
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+    position: relative;
+    top: -22px;
+    z-index: 1;
+  }
+  .login-form p {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 0 10px;
+  }
+  @media screen and (max-width:767px) {
+  .login-form {
+      width: 90%;
+      padding: 15px 15px 30px;
+  }
+  }
+  
+  
+  .icon{
+      display: block;
+      width: 100px;
+      height: 100px;
+      margin-left: auto;
+      margin-right: auto;
+
+    
+      
+
+
+  }
+
+  .btn-grad {background-image: linear-gradient(to right, #c35533 0%, #704552  51%, #c03017  100%)}
+  .btn-grad {
+    margin: 0 auto;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+     display: block;
+     
+   }
+
+   .btn-grad:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+   .btn-fb {background-image: linear-gradient(to right, #063be9 0%, #6544d1  51%, #4483e9  100%)}
+  .btn-fb {
+    margin: 0 auto;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+     display: block;
+     
+   }
+
+   .btn-fb:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+   .btn-google {background-image: linear-gradient(to right, #f30b0b 0%, #ee4a52  51%, #47231e  100%)}
+  .btn-google {
+    margin: 0 auto;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+     display: block;
+     
+   }
+
+   .btn-google:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+   .box{
+    border:1px solid black;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-top: 50px;
+    
+}
+
+/* sign up css */
+body {
+    background: #607D8B;
+    font-family: arial;
+  }
+  .signup-form h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #45aba6;
+    margin-bottom: 30px;
+    font-weight: normal;
+  }
+  .login-form .social-icon {
+      width: 100%;
+      font-size: 20px;
+      padding-top: 20px;
+      color: #fff;
+      text-align: center;
+      float: left;
+  }
+  .signup-form {
+      background: #fff;
+      width: 450px;
+      border-radius: 6px;
+      margin: 0 auto;
+      display: table;
+      padding: 15px 30px 30px;
+      box-sizing: border-box;
+  }
+  .signup-group {
+    float: left;
+    width: 100%;
+    margin: 0 0 15px;
+    position: relative;
+  }
+  .signup-form input {
+      width: 100%;
+      padding: 5px;
+      height: 56px;
+      border-radius: 74px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      font-size: 15px;
+      padding-left: 75px;
+  }
+  .signup-form .signup-group .input-icon {
+      font-size: 15px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      align-items: center;
+      position: absolute;
+      border-radius: 25px;
+      bottom: 0;
+      height: 100%;
+      padding-left: 35px;
+      color: #666;
+  }
+  .signup-form .login-btn {
+    background: #45aba6;
+    padding: 11px 50px;
+    border-color: #45aba6;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    border: 1px solid #45aba6;
+    border-radius: 44px;
+    width: 100%;
+    height: 56px;
+    cursor: pointer;
+  }
+  .signup-form .reset-psw {
+    float: left;
+    width: 100%;
+    text-decoration: none;
+    color: #45aba6;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 11px;
+  }
+  .signup-form .social-icon button {
+      font-size: 20px;
+      color: white;
+      height: 50px;
+      width: 50px;
+      background: #45aba6;
+      border-radius: 60%;
+      margin: 0px 10px;
+      border: none;
+      cursor: pointer;
+  }
+  .signup-form button:hover{
+    opacity: 0.9;
+  }
+  .signup-form .seperator {
+    float: left;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    margin: 50px 0 0;
+  }
+  .signup-form .seperator b {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    background: #fff;
+    display: inline-block;
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+    position: relative;
+    top: -22px;
+    z-index: 1;
+  }
+  .signup-form p {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 0 10px;
+  }
+  @media screen and (max-width:767px) {
+  .signup-form {
+      width: 90%;
+      padding: 15px 15px 30px;
+  }
+  }
+  
+  
+  .icon{
+      display: block;
+      width: 100px;
+      height: 100px;
+      margin-left: auto;
+      margin-right: auto;
+
+    
+      
+
+  }
+  .btn-grad {background-image: linear-gradient(to right, #266fce 0%, #616bf0  51%, #1e6be7  100%)}
+  .btn-grad {
+    margin: 0 auto;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+     display: block;
+     
+   }
+
+   .btn-grad:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+   .para{
+       padding-top: 10px;
+       padding-bottom: 10px;
+       text-align: center;
+   }
+   .box{
+       border:1px solid black;
+       box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+       margin-top: 50px;
+       
+   
+      }
+      /*CSS for Home Page */
+
+    .bg-home{
+        background-color:slategray;
+    }
+    .image{
+        width: 800px;
+        height: 500px;
+    }
+    .resize{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+       
+        
+    }
+    .overall{
+        padding-left: 100px;
+        padding-right: 100px;
+         
+    }
+    .text{
+        text-align: center;
+    }
+    .resized{
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 20px;
+       
+    }
+    .back-c{
+        background-color: rgba(199, 197, 197, 0.63);
+        
+    }
+    .ex-color{
+        background-color: rgb(255, 255, 255);
+    }
+    .nav-colour{
+        background-color: rgb(70, 66, 66);
+    }
+    
+    
+    .card {
+        border: none;
+        box-shadow:  0 0 20px #eee;;
+        
+    }
+
+    /* CSS for description page*/
+    .about {
+      font-size: 20px;
+      padding-right: 20px;
+  }
+  
+  .color {
+      margin-bottom: 10px
+  }
+ 
+     #text{
+         font-size: 40px;
+     }
+  
+     .vl {
+      border-left: 6px solid green;
+      height: 102px;
+    }
+    .add-header-part{
+      background-color: #d3d0d0;
+      padding-top: 5px;
+      
+      padding-left: 20px;
+    }
+    .add-form-part{
+      padding-left: 20px;
+      padding-bottom: 20px;
+      padding-top: 20px;
+    }
+  
+  .des-resize{
+    margin-left: 20px;
+    padding-top: 10px;
+  }
+  .showtrackr{
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    background: gold;
+  }
+  

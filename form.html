@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Log In</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <!--Code For NavBar-->
+  <nav class="navbar navbar-expand-md navbar-light bg-home">
+    <a href="#" class="navbar-brand">SHOWTRACKR</a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav">
+            <a href="index.html" class="nav-item nav-link active"><i class="fa fa-fw fa-home"></i>Home</a>
+            <a href="Add.html" class="nav-item nav-link">Add</a>
+
+        </div>
+        <div class="navbar-nav ml-auto">
+            <a href="form.html" class="nav-item nav-link"><i class="fa fa-fw fa-user"></i>Login</a>
+            <a href="signup.html" class="nav-item nav-link"><i class='fas fa-user-plus'></i>Signup</a>
+        </div>
+    </div>
+</nav>
+<!--Code For Login Form-->
+  <div class="login-form box">
+      
+    <form>
+        <img src="./images/login.png" class="icon">
+        
+      <h1>Login</h1>
+      <div class="form-group">
+        <input type="email" name="email" placeholder="E-mail Address" id="email" >
+        <span class="input-icon"><i class="fa fa-envelope"></i></span>
+      </div>
+      <div class="form-group">
+        <input type="password" name="psw" placeholder="Password" id="pwd"> 
+        <span class="input-icon"><i class="fa fa-lock"></i></span> 
+      </div> 
+      <button class="btn-grad" onclick="login()">Login</button><br>  
+      <a class="reset-psw" href="#"><strong> Forgot your password? </strong></a><br><br><br>
+      <p>Don't have an account yet? <a href="#"><b>Sign Up</b></a></p>
+      <div class="seperator"><b>or</b></div>
+      <p>Sign in with your social media account</p>
+      <!-- Social login buttons -->
+      <div>
+        <button class="btn-fb"><i class="fa fa-facebook-official"></i><a href="https://www.facebook.com/" style="color:white" > Sign In with Facebook</a>  </button>  <br><br>
+        <button class="btn-google"><i class="fa fa-google"></i> Sign In with Google</button> 
+      </div>
+    
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
